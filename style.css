@@ -1,0 +1,44 @@
+header {
+    height: 160px;
+}
+
+body {
+  background-color: #FECC6F;
+}
+.logo {
+      width:60%;
+      height:100%;
+      background-image:url(images/header.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    margin: 10px auto 0px auto;
+      
+}
+
+.equations {
+  position: relative;
+  color:white;
+  background-color: #425A5A;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-style:solid;
+  border-radius: 10px;
+  border-width:12px;
+  border-color:#523620;
+  text-align: center;
+}
+
+.sir {
+  z-index:2;
+  position: absolute;
+  top:191px;
+  right:194px;
+  
+}
+
+.chalk {
+  position: absolute;
+  z-index:2;
+  left:277px;
+  top:441px;
+}
